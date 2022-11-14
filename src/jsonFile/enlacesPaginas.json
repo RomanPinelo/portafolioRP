@@ -1,0 +1,412 @@
+[
+  {
+    "id": 1,
+    "imagen": "../img/happyHouse.jpg",
+    "titulo": "Inmobiliaria Happy House (Responsive Design)",
+    "escuela": "Personal",
+    "lenguajes": "HTML, CSS, JavaScript y PHP",
+    "repositorio": "https://github.com/RomanPinelo/happyHouse1",
+    "demostracion": "https://www.happyhousemx.com/",
+    "isReal": true
+  },
+  {
+    "id": 2,
+    "imagen": "../img/articulo-medium.jpg",
+    "titulo": "Artículo (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/articulo",
+    "demostracion": "https://romanpinelo.github.io/articulo/",
+    "isReal": false
+  },
+  {
+    "id": 3,
+    "imagen": "../img/mantis-marina.jpg",
+    "titulo": "Mantis marina (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/mantis-marina",
+    "demostracion": "https://romanpinelo.github.io/mantis-marina/",
+    "isReal": false
+  },
+  {
+    "id": 4,
+    "imagen": "../img/bateria.jpg",
+    "titulo": "Artículo de batería (instrumento musical)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/articulo-bateria",
+    "demostracion": "https://romanpinelo.github.io/articulo-bateria/",
+    "isReal": false
+  },
+  {
+    "id": 5,
+    "imagen": "../img/simple_quote.jpg",
+    "titulo": "Página de cita simple (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/simple-quote-page",
+    "demostracion": "https://romanpinelo.github.io/simple-quote-page/",
+    "isReal": false
+  },
+  {
+    "id": 6,
+    "imagen": "../img/multiple_quote.jpg",
+    "titulo": "Página de cita simple en múltiples idiomas (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/multiple-quote-page",
+    "demostracion": "https://romanpinelo.github.io/multiple-quote-page/",
+    "isReal": false
+  },
+  {
+    "id": 7,
+    "imagen": "../img/cuadro-mondrian.jpg",
+    "titulo": "Cuadro de Mondrian (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/cuadro-de-mondrian",
+    "demostracion": "https://romanpinelo.github.io/cuadro-de-mondrian/",
+    "isReal": false
+  },
+  {
+    "id": 8,
+    "imagen": "../img/sitio_personal.jpg",
+    "titulo": "Sitio personal (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/sitio-personal",
+    "demostracion": "https://romanpinelo.github.io/sitio-personal/",
+    "isReal": false
+  },
+  {
+    "id": 9,
+    "imagen": "../img/sobre_mi.jpg",
+    "titulo": "Página de presentación (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/sobre-mi-1",
+    "demostracion": "https://romanpinelo.github.io/sobre-mi-1/",
+    "isReal": false
+  },
+  {
+    "id": 10,
+    "imagen": "../img/sitio_bodas.jpg",
+    "titulo": "Sitio de bodas (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/sitio-de-bodas",
+    "demostracion": "https://romanpinelo.github.io/sitio-de-bodas/",
+    "isReal": false
+  },
+  {
+    "id": 11,
+    "imagen": "../img/pagina_blog.jpg",
+    "titulo": "Página de inicio de un blog",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/pagina-de-inicio-de-blog",
+    "demostracion": "https://romanpinelo.github.io/pagina-de-inicio-de-blog",
+    "isReal": false
+  },
+  {
+    "id": 12,
+    "imagen": "../img/pagina_contactanos.jpg",
+    "titulo": "Página contactanos de una empresa",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/pagina-contactanos-empresa",
+    "demostracion": "https://romanpinelo.github.io/pagina-contactanos-empresa/",
+    "isReal": false
+  },
+  {
+    "id": 13,
+    "imagen": "../img/registro_aplicacion.jpg",
+    "titulo": "Registro a una aplicación web",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/registro-aplicacion-web",
+    "demostracion": "https://romanpinelo.github.io/registro-aplicacion-web/",
+    "isReal": false
+  },
+  {
+    "id": 14,
+    "imagen": "../img/interfaz_usuario.jpg",
+    "titulo": "Interfaz de usuario de un chat",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/interfaz-usuario-chat",
+    "demostracion": "https://romanpinelo.github.io/interfaz-usuario-chat/",
+    "isReal": false
+  },
+  {
+    "id": 15,
+    "imagen": "../img/bootstrap_tipografía.jpg",
+    "titulo": "Página hecha con Bootstrap donde se resumen las clases de tipografía (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/bootstrap-tipografia",
+    "demostracion": "https://romanpinelo.github.io/bootstrap-tipografia/",
+    "isReal": false
+  },
+  {
+    "id": 16,
+    "imagen": "../img/resumen_bootstrap.jpg",
+    "titulo": "Página hecha con Bootstrap donde se resumen algunas clases (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/resumen-bootstrap",
+    "demostracion": "https://romanpinelo.github.io/resumen-bootstrap/",
+    "isReal": false
+  },
+  {
+    "id": 17,
+    "imagen": "../img/reloj_colores.jpg",
+    "titulo": "Reloj de colores (Responsive Design)",
+    "escuela": "CodeBerry",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/reloj-de-colores",
+    "demostracion": "https://romanpinelo.github.io/reloj-de-colores/",
+    "isReal": false
+  },
+  {
+    "id": 18,
+    "imagen": "../img/platzi_video.jpg",
+    "titulo": "Aplicación de video (Responsive Design)",
+    "escuela": "Platzi",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/video-vistas",
+    "demostracion": "https://romanpinelo.github.io/video-vistas/",
+    "isReal": false
+  },
+  {
+    "id": 19,
+    "imagen": "../img/flexbox.jpg",
+    "titulo": "Página hecha a base de Flexbox (Responsive Design)",
+    "escuela": "Platzi",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/pagina-flexbox",
+    "demostracion": "https://romanpinelo.github.io/pagina-flexbox/",
+    "isReal": false
+  },
+  {
+    "id": 20,
+    "imagen": "../img/producto_paypal.jpg",
+    "titulo": "Página de un pequeño negocio donde se agrega un botón de pago con PayPal (Responsive Design)",
+    "escuela": "Platzi",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/practica-paypal",
+    "demostracion": "https://romanpinelo.github.io/practica-paypal/",
+    "isReal": false
+  },
+  {
+    "id": 21,
+    "imagen": "../img/ss1.jpg",
+    "titulo": "Página donde se muestra una tarjeta de presentación móvil en 3D",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/tarjeta-3d",
+    "demostracion": "https://romanpinelo.github.io/tarjeta-3d/",
+    "isReal": false
+  },
+  {
+    "id": 22,
+    "imagen": "../img/1.jpg",
+    "titulo": "Página donde se muestran tarjetas de presentación móviles (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/tarjetas-moviles",
+    "demostracion": "https://romanpinelo.github.io/tarjetas-moviles/",
+    "isReal": false
+  },
+  {
+    "id": 23,
+    "imagen": "../img/dibujando_canvas.jpg",
+    "titulo": "Dibujo automático en canvas",
+    "escuela": "Platzi",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/dibujando_canvas",
+    "demostracion": "https://romanpinelo.github.io/dibujando_canvas/",
+    "isReal": false
+  },
+  {
+    "id": 24,
+    "imagen": "../img/area_perimetro.jpg",
+    "titulo": "Área y perímetro de un rectángulo",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/area_perimetro",
+    "demostracion": "https://romanpinelo.github.io/area_perimetro/",
+    "isReal": false
+  },
+  {
+    "id": 25,
+    "imagen": "../img/raices.jpg",
+    "titulo": "Calcular las raíces de una ecuación de segundo grado y graficarlas (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/raices_ecuacion",
+    "demostracion": "https://romanpinelo.github.io/raices_ecuacion/",
+    "isReal": false
+  },
+  {
+    "id": 26,
+    "imagen": "../img/2.jpg",
+    "titulo": "Cálculo del sueldo de un empleado (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/sueldo_empleado",
+    "demostracion": "https://romanpinelo.github.io/sueldo_empleado/",
+    "isReal": false
+  },
+  {
+    "id": 27,
+    "imagen": "../img/profile_card.jpg",
+    "titulo": "Tarjeta de presentación (Responsive Design)",
+    "escuela": "Reto de Frontend Mentor",
+    "lenguajes": "HTML y CSS",
+    "repositorio": "https://github.com/RomanPinelo/profile-card-component-main",
+    "demostracion": "https://romanpinelo.github.io/profile-card-component-main/",
+    "isReal": false
+  },
+  {
+    "id": 28,
+    "imagen": "../img/valorDigitos.jpg",
+    "titulo": "Calcula el valor de cada digito de un número (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/valor_digitos",
+    "demostracion": "https://romanpinelo.github.io/valor_digitos/",
+    "isReal": false
+  },
+  {
+    "id": 29,
+    "imagen": "../img/calculadoraResistencias.jpg",
+    "titulo": "Calculadora de resistencias de acuerdo al código de colores (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/calculadora_resistencias",
+    "demostracion": "https://romanpinelo.github.io/calculadora_resistencias/",
+    "isReal": false
+  },
+  {
+    "id": 30,
+    "imagen": "../img/countdownTimer.jpg",
+    "titulo": "Contador regresivo (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/countdown_timer",
+    "demostracion": "https://romanpinelo.github.io/countdown_timer/",
+    "isReal": false
+  },
+  {
+    "id": 31,
+    "imagen": "../img/boton_menu_hambur.jpg",
+    "titulo": "Botones de menú hamburguesa con animaciones",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/boton_animado",
+    "demostracion": "https://romanpinelo.github.io/boton_animado/",
+    "isReal": false
+  },
+  {
+    "id": 32,
+    "imagen": "../img/pie_pap_tij.jpg",
+    "titulo": "Piedra, papel o tijeras (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/piedra_papel_tijeras",
+    "demostracion": "https://romanpinelo.github.io/piedra_papel_tijeras/",
+    "isReal": false
+  },
+  {
+    "id": 33,
+    "imagen": "../img/gato.jpg",
+    "titulo": "Juego de gato o tres en raya (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/gato",
+    "demostracion": "https://romanpinelo.github.io/gato/",
+    "isReal": false
+  },
+  {
+    "id": 34,
+    "imagen": "../img/chuckNorris.jpg",
+    "titulo": "Chuck Norris API (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/chuck_norris_api",
+    "demostracion": "https://romanpinelo.github.io/chuck_norris_api/",
+    "isReal": false
+  },
+  {
+    "id": 35,
+    "imagen": "../img/pokedex.jpg",
+    "titulo": "Pokedex API (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/pokedex",
+    "demostracion": "https://romanpinelo.github.io/pokedex/",
+    "isReal": false
+  },
+  {
+    "id": 36,
+    "imagen": "../img/puntosCircunferencia.jpg",
+    "titulo": "Puntos de la circunferencia (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/puntosCircunferencia",
+    "demostracion": "https://romanpinelo.github.io/puntosCircunferencia/",
+    "isReal": false
+  },
+  {
+    "id": 37,
+    "imagen": "../img/productosNotables.jpg",
+    "titulo": "Productos notables. Binomio al cuadrado (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/productosNotables",
+    "demostracion": "https://romanpinelo.github.io/productosNotables/",
+    "isReal": false
+  },
+  {
+    "id": 38,
+    "imagen": "../img/calculadora.jpg",
+    "titulo": "Calculadora (Responsive Design)",
+    "escuela": "Práctica personal",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/calculadora",
+    "demostracion": "https://romanpinelo.github.io/calculadora/",
+    "isReal": false
+  },
+  {
+    "id": 39,
+    "imagen": "../img/bingo.jpg",
+    "titulo": "Bingo (Responsive Design)",
+    "escuela": "Reto de manzdev",
+    "lenguajes": "HTML, CSS y JavaScript",
+    "repositorio": "https://github.com/RomanPinelo/manzdev-retos-bingo",
+    "demostracion": "https://romanpinelo.github.io/manzdev-retos-bingo/src/",
+    "isReal": false
+  },
+  {
+    "id": 40,
+    "imagen": "../img/lista_tareas_fazt.jpg",
+    "titulo": "Lista de tareas",
+    "escuela": "Curso del canal de YouTube Fazt",
+    "lenguajes": "React JS",
+    "repositorio": "https://github.com/RomanPinelo/cursoReactFaztTaskList",
+    "demostracion": "https://romanpinelo.github.io/cursoReactFaztTaskList/",
+    "isReal": false
+  },
+  {
+    "id": 41,
+    "imagen": "../img/user_cards.jpg",
+    "titulo": "Tarjetas de presentación",
+    "escuela": "Práctica personal",
+    "lenguajes": "React JS",
+    "repositorio": "https://github.com/RomanPinelo/tarjetas-presentacion",
+    "demostracion": "https://romanpinelo.github.io/tarjetas-presentacion/",
+    "isReal": false
+  }
+]

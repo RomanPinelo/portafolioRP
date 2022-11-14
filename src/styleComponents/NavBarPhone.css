@@ -1,0 +1,122 @@
+:root {
+  --decorado: #6956af;
+}
+
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.phone {
+  width: 100%;
+  height: 4rem;
+}
+
+/* Botón */
+.button {
+  background-color: #333;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  margin: 0.5rem 1.5rem;
+  outline: none;
+  border: 0;
+}
+
+.button_bar {
+  position: absolute;
+  background-color: #fff;
+  width: 80%;
+  height: 10%;
+  left: 10%;
+  border-radius: 9999px;
+  transition: 0.5s;
+}
+
+.Bar1 {
+  top: 17.5%;
+}
+
+.Bar2 {
+  top: 45%;
+}
+
+.Bar3 {
+  top: 72.5%;
+}
+
+.Bar1.active1 {
+  top: 30%;
+  left: 45%;
+  width: 50%;
+  transform: rotate(405deg);
+}
+
+.Bar3.active3 {
+  top: 60%;
+  left: 45%;
+  width: 50%;
+  transform: rotate(-405deg);
+}
+
+/* menu */
+.phone .phone__menu {
+  background-color: #333;
+  width: 12rem;
+  height: 12.5rem;
+  position: absolute;
+  top: 2rem;
+  left: -200%;
+  transition: 0.75s;
+  border: 0.5px solid #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.phone .phone__menu.active2 {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.phone .phone__menu li {
+  list-style: none;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-top: 0.5px;
+  border-bottom: 0.5px;
+  border-left: 0;
+  border-right: 0;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.phone .phone__menu li:first-child {
+  border-top: 0;
+}
+
+.menuButton {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+.menuButton .icon {
+  margin-right: 0.5rem;
+}
+
+/* Link activo */
+.active {
+  color: var(--decorado);
+}
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+@media screen and (min-width: 1000px) {
+  .phone {
+    display: none;
+  }
+}

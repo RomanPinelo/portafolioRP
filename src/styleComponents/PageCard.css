@@ -1,0 +1,77 @@
+:root {
+  --decorado: #6956af;
+  --portfolioBg: #6956afee;
+  --portfolioText: #cec8e5;
+  --portfolioLink: #201A37;
+  --portfolioLinkHover: #201A3788;
+}
+
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.tarjeta {
+  width: 100%;
+  height: 20rem;
+  margin: 1rem auto;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.tarjeta .tarjeta__imagen {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tarjeta .tarjeta__info {
+  background: var(--portfolioBg);
+  text-align: center;
+  color: var(--portfolioText);
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: scale(0);
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.tarjeta:hover .tarjeta__info {
+  transform: scale(1);
+}
+
+.tarjeta .tarjeta__info .tarjeta__info-parrafo {
+  width: 95%;
+}
+
+.tarjeta .tarjeta__info .tarjeta__info-parrafo .tarjeta__info-parrafoLogo {
+  vertical-align: middle;
+  font-size: 1.1rem;
+}
+
+.tarjeta .tarjeta__info .tarjeta__info-parrafo .tarjeta__info-parrafoEnlace {
+  color: var(--portfolioLink);
+  /* font-size: 0.75rem; */
+  overflow-wrap: break-word;
+}
+
+.tarjeta .tarjeta__info .tarjeta__info-parrafo .tarjeta__info-parrafoEnlace:hover {
+  color: var(--portfolioLinkHover);
+}
+
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+@media screen and (min-width: 1000px) {
+  
+}

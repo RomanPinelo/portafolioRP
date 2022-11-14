@@ -1,0 +1,240 @@
+/* 
+  Se utilizará la fuente Poppins para los títulos 
+  y la fuente Open Sans para el resto del texto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --decorado: #6956af;
+  --facebookLogo: #3b5998;
+  --linkedinLogo: #0e76a8;
+  --whatsappLogo: #00bb2d;
+  --githubLogo: #171515;
+  --fbLogoHover: #25375f;
+  --liLogoHover: #0e5d81;
+  --waLogoHover: #187a2f;
+  --ghLogoHover: #000;
+}
+
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.contacto {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  overflow: auto;
+}
+
+/* Título de la sección */
+.tituloContacto {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  padding-top: 1rem;
+}
+
+.tituloContacto::before {
+  content: 'CONTÁCTAME';
+  font-size: 2.75rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  padding-top: 1rem;
+}
+
+/* Descripción */
+.contactoDescripcion {
+  width: 90%;
+  margin: 2rem auto 1rem;
+  text-align: justify;
+}
+
+/* Correo y teléfono */
+.correoTelefonoContenedor {
+  width: 90%;
+  margin: 2rem auto 1rem;
+  text-align: justify;
+  color: #555;
+}
+
+.correoTelefonoContenedor .correoTelefonoContenedor__telefono,
+.correoTelefonoContenedor .correoTelefonoContenedor__correo {
+  margin: 1rem 0;
+}
+
+.correoTelefonoContenedor .correoTelefonoContenedor__telefono .iconoSobreTelefono,
+.correoTelefonoContenedor .correoTelefonoContenedor__correo .iconoSobreTelefono {
+  color: var(--decorado);
+  font-size: 1.5rem;
+}
+
+.correoTelefonoContenedor .correoTelefonoContenedor__telefono .telefono,
+.correoTelefonoContenedor .correoTelefonoContenedor__correo .mail {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 0.25rem;
+}
+
+.correoTelefonoContenedor .correoTelefonoContenedor__telefono .telefono:hover,
+.correoTelefonoContenedor .correoTelefonoContenedor__correo .mail:hover {
+  color: var(--decorado);
+}
+
+.correoTelefonoContenedor .correoTelefonoContenedor__telefono .telefono .iconLink,
+.correoTelefonoContenedor .correoTelefonoContenedor__correo .mail .iconLink {
+  vertical-align: middle;
+  font-size: 0.75rem;
+}
+
+/* Redes sociales */
+.redes {
+  width: 90%;
+  margin: 2rem auto 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.redes li {
+  list-style: none;
+}
+
+.redes li .redesButton {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.redes li .facebook {
+  background-color: var(--facebookLogo);
+}
+
+.redes li .facebook:hover {
+  background-color: var(--fbLogoHover);
+}
+
+.redes li .linkedin {
+  background-color: var(--linkedinLogo);
+}
+
+.redes li .linkedin:hover {
+  background-color: var(--liLogoHover);
+}
+
+.redes li .whatsapp {
+  background-color: var(--whatsappLogo);
+}
+
+.redes li .whatsapp:hover {
+  background-color: var(--waLogoHover);
+}
+
+.redes li .github {
+  background-color: var(--githubLogo);
+}
+
+.redes li .github:hover {
+  background-color: var(--ghLogoHover);
+}
+
+/* Formulario de contacto */
+.formularioTitulo {
+  width: 90%;
+  margin: 2rem auto 1rem;
+  color: #555;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.formularioTitulo .formspreeLink {
+  color: #999;
+}
+
+.formularioTitulo .formspreeLink:hover {
+  color: #555;
+}
+
+.formularioContacto {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.formularioContacto label,
+.formularioContacto input,
+.formularioContacto textarea {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  resize: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+.formularioContacto input,
+.formularioContacto textarea {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.formularioContacto input {
+  height: 2rem;
+  font-size: 1.25rem;
+  padding-left: 20px;
+}
+
+.formularioContacto input:focus,
+.formularioContacto textarea:focus {
+  outline: none;
+}
+
+.formularioContacto textarea {
+  padding: 15px;
+  text-align: justify;
+}
+
+.formularioContacto button {
+  background: var(--decorado);
+  display: block;
+  color: #fff;
+  width: 140px;
+  height: 40px;
+  margin: auto;
+  font-size: 1.4rem;
+  font-weight: bold;
+  outline: none;
+  border: 2px solid var(--decorado);
+  border-radius: 9999px;
+  transition: 0.25s;
+}
+
+.formularioContacto button:hover {
+  background: transparent;
+  color: var(--decorado);
+}
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+@media screen and (min-width: 1000px) {
+  .contacto {
+    width: 55%;
+    height: 100%;
+  }
+}

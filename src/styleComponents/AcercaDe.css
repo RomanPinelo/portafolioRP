@@ -1,0 +1,224 @@
+/* 
+  Se utilizará la fuente Poppins para los títulos 
+  y la fuente Open Sans para el resto del texto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --decorado: #6956af;
+  --htmlLogo: #e34c26;
+  --cssLogo: #264de4;
+  --javascriptLogo: rgb(255, 238, 0);
+  --bootstrapLogo: #682ebe;
+  --bootstrapLogo1: #563d7c;
+  --reactLogo: #61dbfb;
+  --jsonLogo: #ffbb00;
+}
+
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.acercade {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  overflow: auto;
+}
+
+/* Título de la sección */
+.tituloAcercaDe {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  padding-top: 1rem;
+}
+
+.tituloAcercaDe span {
+  color: var(--decorado);
+}
+
+.tituloAcercaDe::before {
+  content: 'RESUMEN';
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  padding-top: 1rem;
+}
+
+/* Datos personales */
+.datosPersonales {
+  width: 90%;
+  margin: 1rem auto;
+  font-size: 1.25rem;
+}
+
+.datosPersonales span {
+  display: block;
+  color: #aaa;
+  font-size: 1.5rem;
+}
+
+.datosPersonales .linkDatosPersonales {
+  text-decoration: none;
+  font-weight: normal;
+  color: #fff;
+}
+
+.datosPersonales .linkDatosPersonales .linkExterno {
+  vertical-align: sub;
+  font-size: 0.8rem;
+}
+
+.datosPersonales .linkDatosPersonales:hover {
+  color: var(--decorado);
+}
+
+/* Botón descarga de CV */
+.descarga {
+  display: block;
+  width: max-content;
+  padding: 0.5rem 1.5rem;
+  background: var(--decorado);
+  margin: 3rem auto;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border: 4px solid var(--decorado);
+  border-radius: 9999px;
+  color: #fff;
+}
+
+.descarga:hover {
+  background: #111;
+}
+
+/* Skills y soft skill*/
+.tituloSkills {
+  text-align: center;
+}
+
+.tituloSoftSkills {
+  margin: 3.5rem 0 1rem;
+  text-align: center;
+}
+
+.skills,
+.softSkills {
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.skills li,
+.softSkills li {
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+}
+
+.skills .htmlLogo {
+  color: var(--htmlLogo);
+}
+
+.skills .cssLogo {
+  color: var(--cssLogo);
+}
+
+.skills .jsLogo {
+  color: var(--javascriptLogo);
+}
+
+.skills .bootstrapLogo {
+  color: var(--bootstrapLogo1);
+}
+
+.skills .reactLogo {
+  color: var(--reactLogo);
+}
+
+.skills .jsonLogo {
+  color: var(--jsonLogo);
+}
+
+
+
+/* Experiencia y educación */
+.tituloExperiencia {
+  margin: 3.5rem 0 1rem;
+  text-align: center;
+}
+
+.contenedorDatosExperiencia {
+  width: 90%;
+  margin: 1.5rem auto;
+}
+
+.contenedorDatosExperiencia .contenedorDatosExperiencia__fecha {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contenedorDatosExperiencia .contenedorDatosExperiencia__fecha .contenedorDatosExperiencia__fecha-logo {
+  display: inline-block;
+  background: var(--decorado);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.contenedorDatosExperiencia .contenedorDatosExperiencia__fecha .contenedorDatosExperiencia__fecha-logo .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
+
+.contenedorDatosExperiencia .contenedorDatosExperiencia__fecha .contenedorDatosExperiencia__fecha-fecha {
+  display: inline-block;
+  margin-left: 2.5rem;
+  background: #222;
+  padding: 7.5px 30px;
+  border-radius: 9999px;
+}
+
+.contenedorDatosExperiencia h3 span {
+  color: #555;
+}
+
+.contenedorDatosExperiencia p {
+  letter-spacing: 3px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.contenedorDatosExperiencia p a {
+  color: #999;
+}
+
+.contenedorDatosExperiencia p a:hover {
+  color: var(--text);
+}
+
+.contenedorDatosExperiencia p a .logoLinkExterno {
+  vertical-align: sub;
+  font-size: 0.8rem;
+}
+
+
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+@media screen and (min-width: 1000px) {
+  .acercade {
+    width: 55%;
+    height: 100%;
+  }
+}

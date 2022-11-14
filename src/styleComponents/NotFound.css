@@ -1,0 +1,47 @@
+:root {
+  --decorado: #6956af;
+}
+
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.notFound {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFound h1,
+.notFound p,
+.notFound .principalButton {
+  margin: 1rem 0;
+}
+
+.notFound .principalButton {
+  display: block;
+  background-color: var(--decorado);
+  border: 2px solid var(--decorado);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.notFound .principalButton:hover {
+  background-color: transparent;
+  color: var(--decorado);
+}
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+@media screen and (min-width: 1000px) {
+  .notFound {
+    width: 55%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.principal {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  overflow: auto;
+}
+
+.contendorMensaje {
+  width: 90%;
+  margin: 1rem auto 0;
+  text-align: justify;
+  font-size: 1.15rem;
+  letter-spacing: 0.15rem;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+@media screen and (min-width: 1000px) {
+  .principal {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contendorMensaje {
+    width: 75%;
+  }
+}

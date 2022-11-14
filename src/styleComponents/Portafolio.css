@@ -1,0 +1,105 @@
+/* 
+  Se utilizará la fuente Poppins para los títulos 
+  y la fuente Open Sans para el resto del texto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --decorado: #6956af;
+  --borderButton: rgba(255, 255, 255, 0.2);
+}
+
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.portafolio {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  overflow: auto;
+}
+
+/* Título de la sección */
+.tituloPortafolio {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  padding-top: 1rem;
+}
+
+.tituloPortafolio::before {
+  content: 'TRABAJOS';
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  padding-top: 1rem;
+}
+
+/* Descripción */
+.portafolio__descripcion {
+  width: 95%;
+  margin: 1rem auto;
+  text-align: justify;
+}
+
+.portafolio__descripcion strong {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* Botón que despliega el contenedor de páginas */
+.contenedorPaginasButton {
+  display: block;
+  outline: none;
+  padding: 0.25rem 1rem;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: var(--borderButton);
+  border: 2px solid var(--borderButton);
+  cursor: pointer;
+}
+
+.contenedorPaginasButton .contenedorPaginasButton__iconDown,
+.contenedorPaginasButton .contenedorPaginasButton__iconUp {
+  vertical-align: middle;
+}
+
+.contenedorPaginasButton .contenedorPaginasButton__iconUp {
+  color: var(--decorado);
+}
+
+/* Contenedor de páginas */
+.contenedorPaginas {
+  width: 95%;
+  height: 0;
+  margin: 1rem auto;
+  overflow: hidden;
+}
+
+.contenedorPaginasOpen {
+  height: auto;
+  overflow: visible;
+}
+
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+@media screen and (min-width: 1000px) {
+  .portafolio {
+    width: 55%;
+    height: 100%;
+  }
+
+  .contenedorPaginasButton:hover {
+    background-color: transparent;
+  }
+}

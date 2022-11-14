@@ -1,0 +1,62 @@
+:root {
+  --decorado: #6956af;
+}
+
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.pc {
+  display: none;
+}
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+@media screen and (min-width: 1000px) {
+  .pc {
+    display: block;
+    width: 15%;
+    height: 100%;
+  }
+
+  .pc__menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .pc__menu li {
+    list-style: none;
+  }
+
+  .pc__menu li .pcMenuButton {
+    display: block;
+    background-color: var(--decorado);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .pc__menu li .pcMenuButton .iconPc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    color: #fff;
+  }
+
+  .pc__menu li .pcMenuButton.activePc {
+    background-color: #111;
+    color: var(--decorado);
+  }
+
+  .tippy-box[data-theme~='decorado'] {
+    color: var(--decorado);
+    font-weight: bold;
+  }
+}
