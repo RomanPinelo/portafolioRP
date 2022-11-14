@@ -64,7 +64,7 @@ function NavBarPc() {
       <ul className="pc__menu">
         <li>
           <Tippy content={<strong style={{color: '#6956af'}}>Principal</strong>} animation='perspective' followCursor={true} plugins={[followCursor]}>
-            <NavLink className={({isActive}) => (isActive ? " pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickPrincipal} to="/portafolioRP" > {isClickedPrincipal ? <FaHome className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
+            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickPrincipal} to="/portafolioRP" > {isClickedPrincipal ? <FaHome className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
           </Tippy>
         </li>
         <li>

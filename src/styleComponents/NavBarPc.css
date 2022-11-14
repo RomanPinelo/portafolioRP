@@ -39,6 +39,7 @@
     height: 2.5rem;
     border-radius: 50%;
     position: relative;
+    color: #fff;
   }
 
   .pc__menu li .pcMenuButton .iconPc {
@@ -47,7 +48,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.25rem;
-    color: #fff;
   }
 
   .pc__menu li .pcMenuButton.activePc {
