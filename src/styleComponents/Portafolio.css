@@ -47,6 +47,8 @@
   width: 95%;
   margin: 1rem auto;
   text-align: justify;
+  font-size: 1.15rem;
+  letter-spacing: 0.15rem;
 }
 
 .portafolio__descripcion strong {

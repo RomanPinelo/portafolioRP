@@ -18,11 +18,11 @@ function App() {
       <main>
         <ImagePc />
         <Routes>
-          <Route path='/' element={ <Principal /> } />
-          <Route path='/descripcion' element={ <Descripcion /> } />
-          <Route path='/acercade' element={ <AcercaDe /> } />
-          <Route path='/portafolio' element={ <Portafolio /> } />
-          <Route path='/contacto' element={ <Contacto /> } />
+          <Route path='/portafolioRP' element={ <Principal /> } />
+          <Route path='/portafolioRP/descripcion' element={ <Descripcion /> } />
+          <Route path='/portafolioRP/acercade' element={ <AcercaDe /> } />
+          <Route path='/portafolioRP/portafolio' element={ <Portafolio /> } />
+          <Route path='/portafolioRP/contacto' element={ <Contacto /> } />
           <Route path='*' element={ <NotFound /> } />
         </Routes>
         <NavBarPc />

@@ -24,7 +24,7 @@ function Portafolio() {
 
       <p className="portafolio__descripcion">
         En este portafolio muestro las páginas web más completas, es decir, las que involucran muchos 
-        conceptos de HTML, CSS y JavaScript. Aparte se hicieron cerca de 220 pequeñas prácticas con
+        conceptos de HTML, CSS, JavaScript y React JS. Aparte se hicieron cerca de 220 pequeñas prácticas con
         conceptos individuales, esto en la plataforma de JS Bin. <br />
         <strong>NOTA: No todas las páginas mostradas están desarrolladas con Responsive Design.</strong>
       </p>
