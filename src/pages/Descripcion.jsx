@@ -58,7 +58,7 @@ function Descripcion() {
         géneros musicales, especialmente el rock en español e inglés. También soy músico y
         toco la batería. Duré 10 años con un grupo de covers el cual se llama Roospeeck.
         Actualmente toco en otro grupo llamado Los Abandona2. El mayor público para el que
-        he tocado ha sido de aproximadamente de 3000 personas.
+        he tocado ha sido de aproximadamente 3000 personas.
         <br />
         <br />
         Casi toda mi vida laboral he sido docente y otra cosa que me encanta es transmitir

@@ -1,0 +1,73 @@
+:root {
+  --decorado: #6956af;
+}
+
+/************************************************************* 
+  MOBILE VIEW
+*************************************************************/
+.contenedorDatosExperiencia {
+  width: 90%;
+  margin: 1.5rem auto;
+}
+
+.contenedorDatosExperiencia .contenedorDatosExperiencia__fecha {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contenedorDatosExperiencia .contenedorDatosExperiencia__fecha .contenedorDatosExperiencia__fecha-logo {
+  display: inline-block;
+  background: var(--decorado);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.contenedorDatosExperiencia .contenedorDatosExperiencia__fecha .contenedorDatosExperiencia__fecha-logo .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
+
+.contenedorDatosExperiencia .contenedorDatosExperiencia__fecha .contenedorDatosExperiencia__fecha-fecha {
+  display: inline-block;
+  margin-left: 2.5rem;
+  background: #222;
+  padding: 7.5px 30px;
+  border-radius: 9999px;
+}
+
+.contenedorDatosExperiencia h3 span {
+  color: #555;
+}
+
+.contenedorDatosExperiencia p {
+  letter-spacing: 3px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.contenedorDatosExperiencia p a {
+  color: #999;
+}
+
+.contenedorDatosExperiencia p a:hover {
+  color: var(--text);
+}
+
+.contenedorDatosExperiencia p a .logoLinkExterno {
+  vertical-align: sub;
+  font-size: 0.8rem;
+}
+
+
+/************************************************************* 
+  DESKTOP VIEW
+*************************************************************/
+/* @media screen and (min-width: 1000px) {
+
+} */
