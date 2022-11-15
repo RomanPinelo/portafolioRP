@@ -64,27 +64,27 @@ function NavBarPc() {
       <ul className="pc__menu">
         <li>
           <Tippy content={<strong style={{color: '#6956af'}}>Principal</strong>} animation='perspective' followCursor={true} plugins={[followCursor]}>
-            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickPrincipal} to="/portafolioRP" > {isClickedPrincipal ? <FaHome className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
+            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickPrincipal} to="/" > {isClickedPrincipal ? <FaHome className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
           </Tippy>
         </li>
         <li>
           <Tippy content="Descripción" theme="decorado" animation='perspective' followCursor={true} plugins={[followCursor]}>
-            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickDescripcion} to="/portafolioRP/descripcion" > {isClickedDescripcion ? <FaRegAddressCard className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
+            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickDescripcion} to="/descripcion" > {isClickedDescripcion ? <FaRegAddressCard className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
           </Tippy>
         </li>
         <li>
           <Tippy content="Acerca de" theme="decorado" animation='perspective' followCursor={true} plugins={[followCursor]}>
-            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickAcercaDe} to="/portafolioRP/acercade" > {isClickedAcercaDe ? <FaUserAlt className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
+            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickAcercaDe} to="/acercade" > {isClickedAcercaDe ? <FaUserAlt className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
           </Tippy>
         </li>
         <li>
           <Tippy content="Portafolio" theme="decorado" animation='perspective' followCursor={true} plugins={[followCursor]}>
-            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickPortafolio} to="/portafolioRP/portafolio" > {isClickedPortafolio ? <FaBriefcase className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
+            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickPortafolio} to="/portafolio" > {isClickedPortafolio ? <FaBriefcase className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
           </Tippy>
         </li>
         <li>
           <Tippy content="Contacto" theme="decorado" animation='perspective' followCursor={true} plugins={[followCursor]}>
-            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickContacto} to="/portafolioRP/contacto" > {isClickedContacto ? <FaEnvelopeOpen className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
+            <NavLink className={({isActive}) => (isActive ? "pcMenuButton activePc" : "pcMenuButton")} onClick={handleClickContacto} to="/contacto" > {isClickedContacto ? <FaEnvelopeOpen className="iconPc" /> : <FaAngleLeft className="iconPc" />} </NavLink>
           </Tippy>
         </li>
       </ul>

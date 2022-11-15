@@ -29,19 +29,19 @@ function NavBarPhone() {
 
       <ul className="phone__menu" id="phone__menu">
         <li>
-          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/portafolioRP" onClick={handleClick}><FaHome className="icon" /> Principal</NavLink>
+          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/" onClick={handleClick}><FaHome className="icon" /> Principal</NavLink>
         </li>
         <li>
-          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/portafolioRP/descripcion" onClick={handleClick}><FaRegAddressCard className="icon" /> Descripción</NavLink>
+          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/descripcion" onClick={handleClick}><FaRegAddressCard className="icon" /> Descripción</NavLink>
         </li>
         <li>
-          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/portafolioRP/acercade" onClick={handleClick}><FaUserAlt className="icon" /> Acerca de</NavLink>
+          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/acercade" onClick={handleClick}><FaUserAlt className="icon" /> Acerca de</NavLink>
         </li>
         <li>
-          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/portafolioRP/portafolio" onClick={handleClick}><FaBriefcase className="icon" /> Portafolio</NavLink>
+          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/portafolio" onClick={handleClick}><FaBriefcase className="icon" /> Portafolio</NavLink>
         </li>
         <li>
-          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/portafolioRP/contacto" onClick={handleClick}><FaEnvelopeOpen className="icon" /> Contacto</NavLink>
+          <NavLink className={({isActive}) => (isActive ? "menuButton active" : "menuButton")} to="/contacto" onClick={handleClick}><FaEnvelopeOpen className="icon" /> Contacto</NavLink>
         </li>
       </ul>
     </nav>
