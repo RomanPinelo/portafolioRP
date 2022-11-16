@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "imagen": "../img/mantis-marina.jpg",
+    "imagen": "img/mantis-marina.jpg",
     "titulo": "Mantis marina (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "imagen": "../img/bateria.jpg",
+    "imagen": "img/bateria.jpg",
     "titulo": "Artículo de batería (instrumento musical)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "imagen": "../img/simple_quote.jpg",
+    "imagen": "img/simple_quote.jpg",
     "titulo": "Página de cita simple (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "imagen": "../img/multiple_quote.jpg",
+    "imagen": "img/multiple_quote.jpg",
     "titulo": "Página de cita simple en múltiples idiomas (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "imagen": "../img/cuadro-mondrian.jpg",
+    "imagen": "img/cuadro-mondrian.jpg",
     "titulo": "Cuadro de Mondrian (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "imagen": "../img/sitio_personal.jpg",
+    "imagen": "img/sitio_personal.jpg",
     "titulo": "Sitio personal (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "imagen": "../img/sobre_mi.jpg",
+    "imagen": "img/sobre_mi.jpg",
     "titulo": "Página de presentación (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "imagen": "../img/sitio_bodas.jpg",
+    "imagen": "img/sitio_bodas.jpg",
     "titulo": "Sitio de bodas (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -101,7 +101,7 @@
   },
   {
     "id": 11,
-    "imagen": "../img/pagina_blog.jpg",
+    "imagen": "img/pagina_blog.jpg",
     "titulo": "Página de inicio de un blog",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -111,7 +111,7 @@
   },
   {
     "id": 12,
-    "imagen": "../img/pagina_contactanos.jpg",
+    "imagen": "img/pagina_contactanos.jpg",
     "titulo": "Página contactanos de una empresa",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -121,7 +121,7 @@
   },
   {
     "id": 13,
-    "imagen": "../img/registro_aplicacion.jpg",
+    "imagen": "img/registro_aplicacion.jpg",
     "titulo": "Registro a una aplicación web",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -131,7 +131,7 @@
   },
   {
     "id": 14,
-    "imagen": "../img/interfaz_usuario.jpg",
+    "imagen": "img/interfaz_usuario.jpg",
     "titulo": "Interfaz de usuario de un chat",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -141,7 +141,7 @@
   },
   {
     "id": 15,
-    "imagen": "../img/bootstrap_tipografía.jpg",
+    "imagen": "img/bootstrap_tipografía.jpg",
     "titulo": "Página hecha con Bootstrap donde se resumen las clases de tipografía (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -151,7 +151,7 @@
   },
   {
     "id": 16,
-    "imagen": "../img/resumen_bootstrap.jpg",
+    "imagen": "img/resumen_bootstrap.jpg",
     "titulo": "Página hecha con Bootstrap donde se resumen algunas clases (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
@@ -161,7 +161,7 @@
   },
   {
     "id": 17,
-    "imagen": "../img/reloj_colores.jpg",
+    "imagen": "img/reloj_colores.jpg",
     "titulo": "Reloj de colores (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -171,7 +171,7 @@
   },
   {
     "id": 18,
-    "imagen": "../img/platzi_video.jpg",
+    "imagen": "img/platzi_video.jpg",
     "titulo": "Aplicación de video (Responsive Design)",
     "escuela": "Platzi",
     "lenguajes": "HTML y CSS",
@@ -181,7 +181,7 @@
   },
   {
     "id": 19,
-    "imagen": "../img/flexbox.jpg",
+    "imagen": "img/flexbox.jpg",
     "titulo": "Página hecha a base de Flexbox (Responsive Design)",
     "escuela": "Platzi",
     "lenguajes": "HTML y CSS",
@@ -191,7 +191,7 @@
   },
   {
     "id": 20,
-    "imagen": "../img/producto_paypal.jpg",
+    "imagen": "img/producto_paypal.jpg",
     "titulo": "Página de un pequeño negocio donde se agrega un botón de pago con PayPal (Responsive Design)",
     "escuela": "Platzi",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -201,7 +201,7 @@
   },
   {
     "id": 21,
-    "imagen": "../img/ss1.jpg",
+    "imagen": "img/ss1.jpg",
     "titulo": "Página donde se muestra una tarjeta de presentación móvil en 3D",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -211,7 +211,7 @@
   },
   {
     "id": 22,
-    "imagen": "../img/1.jpg",
+    "imagen": "img/1.jpg",
     "titulo": "Página donde se muestran tarjetas de presentación móviles (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -221,7 +221,7 @@
   },
   {
     "id": 23,
-    "imagen": "../img/dibujando_canvas.jpg",
+    "imagen": "img/dibujando_canvas.jpg",
     "titulo": "Dibujo automático en canvas",
     "escuela": "Platzi",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -231,7 +231,7 @@
   },
   {
     "id": 24,
-    "imagen": "../img/area_perimetro.jpg",
+    "imagen": "img/area_perimetro.jpg",
     "titulo": "Área y perímetro de un rectángulo",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -241,7 +241,7 @@
   },
   {
     "id": 25,
-    "imagen": "../img/raices.jpg",
+    "imagen": "img/raices.jpg",
     "titulo": "Calcular las raíces de una ecuación de segundo grado y graficarlas (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -251,7 +251,7 @@
   },
   {
     "id": 26,
-    "imagen": "../img/2.jpg",
+    "imagen": "img/2.jpg",
     "titulo": "Cálculo del sueldo de un empleado (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -261,7 +261,7 @@
   },
   {
     "id": 27,
-    "imagen": "../img/profile_card.jpg",
+    "imagen": "img/profile_card.jpg",
     "titulo": "Tarjeta de presentación (Responsive Design)",
     "escuela": "Reto de Frontend Mentor",
     "lenguajes": "HTML y CSS",
@@ -271,7 +271,7 @@
   },
   {
     "id": 28,
-    "imagen": "../img/valorDigitos.jpg",
+    "imagen": "img/valorDigitos.jpg",
     "titulo": "Calcula el valor de cada digito de un número (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -281,7 +281,7 @@
   },
   {
     "id": 29,
-    "imagen": "../img/calculadoraResistencias.jpg",
+    "imagen": "img/calculadoraResistencias.jpg",
     "titulo": "Calculadora de resistencias de acuerdo al código de colores (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -291,7 +291,7 @@
   },
   {
     "id": 30,
-    "imagen": "../img/countdownTimer.jpg",
+    "imagen": "img/countdownTimer.jpg",
     "titulo": "Contador regresivo (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -301,7 +301,7 @@
   },
   {
     "id": 31,
-    "imagen": "../img/boton_menu_hambur.jpg",
+    "imagen": "img/boton_menu_hambur.jpg",
     "titulo": "Botones de menú hamburguesa con animaciones",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -311,7 +311,7 @@
   },
   {
     "id": 32,
-    "imagen": "../img/pie_pap_tij.jpg",
+    "imagen": "img/pie_pap_tij.jpg",
     "titulo": "Piedra, papel o tijeras (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -321,7 +321,7 @@
   },
   {
     "id": 33,
-    "imagen": "../img/gato.jpg",
+    "imagen": "img/gato.jpg",
     "titulo": "Juego de gato o tres en raya (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -331,7 +331,7 @@
   },
   {
     "id": 34,
-    "imagen": "../img/chuckNorris.jpg",
+    "imagen": "img/chuckNorris.jpg",
     "titulo": "Chuck Norris API (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -341,7 +341,7 @@
   },
   {
     "id": 35,
-    "imagen": "../img/pokedex.jpg",
+    "imagen": "img/pokedex.jpg",
     "titulo": "Pokedex API (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -351,7 +351,7 @@
   },
   {
     "id": 36,
-    "imagen": "../img/puntosCircunferencia.jpg",
+    "imagen": "img/puntosCircunferencia.jpg",
     "titulo": "Puntos de la circunferencia (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -361,7 +361,7 @@
   },
   {
     "id": 37,
-    "imagen": "../img/productosNotables.jpg",
+    "imagen": "img/productosNotables.jpg",
     "titulo": "Productos notables. Binomio al cuadrado (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -371,7 +371,7 @@
   },
   {
     "id": 38,
-    "imagen": "../img/calculadora.jpg",
+    "imagen": "img/calculadora.jpg",
     "titulo": "Calculadora (Responsive Design)",
     "escuela": "Práctica personal",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -381,7 +381,7 @@
   },
   {
     "id": 39,
-    "imagen": "../img/bingo.jpg",
+    "imagen": "img/bingo.jpg",
     "titulo": "Bingo (Responsive Design)",
     "escuela": "Reto de manzdev",
     "lenguajes": "HTML, CSS y JavaScript",
@@ -391,7 +391,7 @@
   },
   {
     "id": 40,
-    "imagen": "../img/lista_tareas_fazt.jpg",
+    "imagen": "img/lista_tareas_fazt.jpg",
     "titulo": "Lista de tareas",
     "escuela": "Curso del canal de YouTube Fazt",
     "lenguajes": "React JS",
@@ -401,7 +401,7 @@
   },
   {
     "id": 41,
-    "imagen": "../img/user_cards.jpg",
+    "imagen": "img/user_cards.jpg",
     "titulo": "Tarjetas de presentación",
     "escuela": "Práctica personal",
     "lenguajes": "React JS",
