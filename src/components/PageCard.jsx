@@ -4,10 +4,10 @@ import { ImFileText2 } from "react-icons/im";
 import { FaGraduationCap, FaRegFileCode, FaGithubSquare } from "react-icons/fa";
 import { BsPencilSquare } from "react-icons/bs";
 
-function PageCard({ id, imagen, titulo, escuela, lenguajes, repositorio, demostracion }) {
+function PageCard({ imagen, titulo, escuela, lenguajes, repositorio, demostracion }) {
   return (
     <div className="tarjeta">
-      <img className="tarjeta__imagen" src={imagen} alt={`Imagen ${id}`} />
+      <img className="tarjeta__imagen" src={imagen} alt={`Imagen ${titulo}`} />
       <div className="tarjeta__info">
         <p className="tarjeta__info-parrafo"><ImFileText2 className="tarjeta__info-parrafoLogo" /> Proyecto: <br /> {titulo}</p>
         <p className="tarjeta__info-parrafo"><FaGraduationCap className="tarjeta__info-parrafoLogo" /> Escuela: <br /> {escuela}</p>
