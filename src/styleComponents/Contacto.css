@@ -87,6 +87,10 @@
   margin-top: 0.25rem;
 }
 
+.correoTelefonoContenedor .correoTelefonoContenedor__correo .mail {
+  font-size: 0.9rem;
+}
+
 .correoTelefonoContenedor .correoTelefonoContenedor__telefono .telefono:hover,
 .correoTelefonoContenedor .correoTelefonoContenedor__correo .mail:hover {
   color: var(--decorado);
@@ -240,5 +244,9 @@
   .contacto {
     width: 55%;
     height: 100%;
+  }
+
+  .correoTelefonoContenedor .correoTelefonoContenedor__correo .mail {
+    font-size: 1.25rem;
   }
 }
