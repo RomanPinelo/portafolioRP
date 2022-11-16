@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imagen": "../img/happyHouse.jpg",
+    "imagen": "img/happyHouse.jpg",
     "titulo": "Inmobiliaria Happy House (Responsive Design)",
     "escuela": "Personal",
     "lenguajes": "HTML, CSS, JavaScript y PHP",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "imagen": "../img/articulo-medium.jpg",
+    "imagen": "img/articulo-medium.jpg",
     "titulo": "Artículo (Responsive Design)",
     "escuela": "CodeBerry",
     "lenguajes": "HTML y CSS",
