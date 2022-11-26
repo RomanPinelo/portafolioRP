@@ -94,7 +94,7 @@ body {
   ::-webkit-scrollbar-button:increment:vertical {
     background-color: var(--decorado);
     background-image: url(./assets/icons8-chevron-abajo-24.png);
-    background-size: cover;
+    background-size: contain;
   }
 
   ::-webkit-scrollbar-button:increment:vertical:active {
@@ -104,7 +104,7 @@ body {
   ::-webkit-scrollbar-button:decrement:vertical {
     background-color: var(--decorado);
     background-image: url(./assets/icons8-chevron-para-arriba-24.png);
-    background-size: cover;
+    background-size: contain;
   }
 
   ::-webkit-scrollbar-button:decrement:vertical:active {
