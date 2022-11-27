@@ -12,7 +12,7 @@ import {followCursor} from 'tippy.js';
 
 function NavBarPc() {
 
-  const [isClickedPrincipal, setIsClickedPrincipal] = useState(true);
+  const [isClickedPrincipal, setIsClickedPrincipal] = useState(false);
   const [isClickedDescripcion, setIsClickedDescripcion] = useState(true);
   const [isClickedAcercaDe, setIsClickedAcercaDe] = useState(true);
   const [isClickedPortafolio, setIsClickedPortafolio] = useState(true);
